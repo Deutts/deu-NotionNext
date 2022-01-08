@@ -7,12 +7,12 @@ const BLOG = {
   link: 'deu-notion-next.vercel.app', // 网站地址
   keywords: ['Notion', '生活', '博客'], // 网站关键词
   home: { // 首页
-    showHomeBanner: false, // 首页是否显示大图及标语 [true,false]
-    homeBannerStrings: ['Hi，我是一个程序员', 'Hi，我是一个打工人', 'Hi，我是一个干饭人', '欢迎来到我的博客🎉'], // 首页大图标语文字
+    showHomeBanner: true, // 首页是否显示大图及标语 [true,false]
+    homeBannerStrings: ['Hi，我是一个信息安全小白', 'Hi，我是一个daigakusai', 'Hi，我是一个干饭人', 'Welcome to 我的博客🎉'], // 首页大图标语文字
     homeBannerImage: './bg_image.jpg' // 背景图地址
   },
   lang: 'zh-CN', // ['zh-CN','en-US'] default lang => see /lib/lang.js for more.
-  notionPageId: process.env.NOTION_PAGE_ID || '74a566d4b1da4e158a87baff51235949', // Important page_id！！！
+  notionPageId: process.env.NOTION_PAGE_ID || 'a733e04777e74e8a876e9ce74c8168d4', // Important page_id！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'font-serif tracking-wider subpixel-antialiased', // 文章字体 ['font-sans', 'font-serif', 'font-mono'] @see https://www.tailwindcss.cn/docs/font-family
@@ -25,7 +25,7 @@ const BLOG = {
   sortByDate: false,
   autoCollapsedNavBar: true, // the automatically collapsed navigation bar
   menu: { // 菜单栏设置
-    showAbout: false, // 显示关于
+    showAbout: true, // 显示关于
     showCategory: true, // 显示分类
     showTag: true, // 显示标签
     showArchive: true, // 显示归档
@@ -38,18 +38,18 @@ const BLOG = {
     showToBottom: true, // 显示回底
     showDarkMode: true, // 显示日间/夜间模式切换
     showToc: true, // 移动端显示悬浮目录
-    showShareBar: false, // 文章分享功能
-    showRelatePosts: false, // 关联文章推荐
+    showShareBar: true, // 文章分享功能
+    showRelatePosts: true, // 关联文章推荐
     showCopyRight: false, // 显示版权声明
-    showLatestPost: false, // 右侧边栏显示最近更新
+    showLatestPost: true, // 右侧边栏显示最近更新
     showCategoryList: false, // 右侧边栏显示文章分类列表
-    showTagList: false // 右侧边栏显示标签分类列表
+    showTagList: true // 右侧边栏显示标签分类列表
   },
   socialLink: { // 社交链接，如不需要展示可以留空白，例如 weibo:''
-    weibo: 'https://weibo.com/tangly1024',
-    twitter: 'https://twitter.com/troy1024_1',
-    github: 'https://github.com/tangly1024',
-    telegram: 'https://t.me/tangly_1024'
+    weibo: '',
+    twitter: '',
+    github: '',
+    telegram: ''
   },
   comment: { // 评论插件，支持 gitalk, utterances, cusdis
     provider: '', // 不需要则留空白
