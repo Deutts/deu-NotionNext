@@ -12,7 +12,7 @@ const BLOG = {
     homeBannerImage: './bg_image.jpg' // 背景图地址
   },
   lang: 'zh-CN', // ['zh-CN','en-US'] default lang => see /lib/lang.js for more.
-  notionPageId: process.env.NOTION_PAGE_ID || 'a733e04777e74e8a876e9ce74c8168d4', // Important page_id！！！
+  notionPageId: process.env.NOTION_PAGE_ID || '74a566d4b1da4e158a87baff51235949', // Important page_id！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'font-serif tracking-wider subpixel-antialiased', // 文章字体 ['font-sans', 'font-serif', 'font-mono'] @see https://www.tailwindcss.cn/docs/font-family
