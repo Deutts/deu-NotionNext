@@ -32,7 +32,7 @@ const BLOG = {
     showSearch: true // 显示搜索
   },
   widget: { // 挂件及组件设置
-    showPet: false, // 是否显示宠物挂件
+    showPet: true, // 是否显示宠物挂件
     petLink: 'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
     showToTop: true, // 是否显示回顶
     showToBottom: true, // 显示回底
