@@ -42,7 +42,7 @@ const BLOG = {
     showRelatePosts: true, // 关联文章推荐
     showCopyRight: false, // 显示版权声明
     showLatestPost: true, // 右侧边栏显示最近更新
-    showCategoryList: true, // 右侧边栏显示文章分类列表
+    showCategoryList: false, // 右侧边栏显示文章分类列表
     showTagList: true // 右侧边栏显示标签分类列表
   },
   socialLink: { // 社交链接，如不需要展示可以留空白，例如 weibo:''
