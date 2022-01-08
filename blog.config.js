@@ -8,7 +8,7 @@ const BLOG = {
   keywords: ['Notion', '生活', '博客'], // 网站关键词
   home: { // 首页
     showHomeBanner: true, // 首页是否显示大图及标语 [true,false]
-    homeBannerStrings: ['Hi，我是一个信息安全小白', 'Hi，我是一个daigakusai', 'Hi，我是一个干饭人', 'Welcome to 我的博客🎉'], // 首页大图标语文字
+    homeBannerStrings: ['Hi，我是一个信安小白'], // 首页大图标语文字
     homeBannerImage: './bg_image.jpg' // 背景图地址
   },
   lang: 'zh-CN', // ['zh-CN','en-US'] default lang => see /lib/lang.js for more.
