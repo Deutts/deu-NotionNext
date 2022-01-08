@@ -25,7 +25,7 @@ const BLOG = {
   sortByDate: false,
   autoCollapsedNavBar: true, // the automatically collapsed navigation bar
   menu: { // 菜单栏设置
-    showAbout: true, // 显示关于
+    showAbout: false, // 显示关于
     showCategory: true, // 显示分类
     showTag: true, // 显示标签
     showArchive: true, // 显示归档
