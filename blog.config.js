@@ -19,7 +19,7 @@ const BLOG = {
   lightBackground: '#eeeeee', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#111827', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy in a folder
-  since: 2020, // if leave this empty, current year will be used.
+  since: 2019, // if leave this empty, current year will be used.
   postListStyle: 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
   postsPerPage: 6, // post counts per page
   sortByDate: false,
@@ -42,7 +42,7 @@ const BLOG = {
     showRelatePosts: true, // 关联文章推荐
     showCopyRight: false, // 显示版权声明
     showLatestPost: true, // 右侧边栏显示最近更新
-    showCategoryList: false, // 右侧边栏显示文章分类列表
+    showCategoryList: true, // 右侧边栏显示文章分类列表
     showTagList: true // 右侧边栏显示标签分类列表
   },
   socialLink: { // 社交链接，如不需要展示可以留空白，例如 weibo:''
